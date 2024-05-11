@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 50%;
+    background-color: rgba(20, 22, 22, 0.521);
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+}
+
+.item {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+}
+
+header {
+    font-size: smaller;
+    text-align: center;
+}
